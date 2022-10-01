@@ -7,11 +7,12 @@ const Button = ({
     href, 
     to, 
     disabled, 
+    bg,
     ...passProps
 }) => {
 
     var Com = 'button'
-    const props = {onClick, className, disabled, ...passProps}
+    const props = {onClick, disabled, ...passProps}
 
     // clear listener if disabled
     if (disabled) {
@@ -37,6 +38,8 @@ const Button = ({
     return (
         <Com
             {...props}
+            className={` ${bg && "bg-amber-200 text-zinc-900 dark:text-white dark:bg-purple-500 dark:bg-opacity-80 p-2 pl-4 pr-4 rounded-lg font-semibold "}
+                         ${className}`}
         >
             {children}
         </Com>
