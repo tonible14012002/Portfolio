@@ -1,3 +1,8 @@
+# Nam Anh's Home Page
+## Stack
++ ReactJS
++ LIbraries:
+    ++ React Router, Fontawsome, Tailwind.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
