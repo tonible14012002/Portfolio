@@ -10,6 +10,10 @@ const Home = () => {
     const [avatar, setAvatar] = useState(0)
 
     useEffect(() => {
+        document.title = "Nam Anh"
+    }, [])
+
+    useEffect(() => {
         const timerId = setInterval(() => {
             setAvatar(prev => {
                 console.log("set")

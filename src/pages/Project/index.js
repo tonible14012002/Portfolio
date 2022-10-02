@@ -3,9 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Button from "../../components/Button"
 import Item from "./components/Item"
 import Color from "../../components/Color"
+import { useEffect } from "react"
 
 const Project = () => {
-
+    useEffect(() => {
+        document.title="projects - Nam Anh"
+    }, [])
     return (
         <div className="Project pt-4">
             <div data-aos="fade-up" className="">

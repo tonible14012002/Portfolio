@@ -39,7 +39,7 @@ const Header = () => {
                     to="/"
                 >
                     <span className="block font-semibold bg-zinc-800 dark:bg-purple-500 dark:text-amber-50 text-xl w-[30px] h-[30px] text-center leading-[30px] rounded-full mr-2">
-                        T
+                        M
                     </span>
                     <span>Nam Anh</span>
                 </Button>                

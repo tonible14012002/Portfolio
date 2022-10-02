@@ -5,8 +5,13 @@ import Color from "../../../components/Color"
 import Para from "../../../components/Para"
 import Board from "../../../components/Board"
 import URL from "../../../components/URL"
+import { useEffect } from "react"
 
 const ShoeStore = () => {
+
+    useEffect(() => {
+        document.title = "shoestore - Nam Anh"
+    }, [])
     return (
     <>
         <div data-aos="fade-right" className="mb-4 flex gap-1 items-baseline justify-start">
