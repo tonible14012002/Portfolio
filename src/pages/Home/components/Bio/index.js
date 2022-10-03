@@ -26,12 +26,12 @@ const Bio = () => {
             <div data-aos="fade-up" className=" mt-6">
                 <div className="mb-1">
                     <h3 className="tablet:text-2xl text-lg">
-                        <Color primary>2.</Color> <span>Course Works</span>
+                        <Color primary>2.</Color> <span>Coursework</span>
                     </h3>
                 </div>
                 <div className="rounded-xl text-sm tablet:text-base text-zinc-200 pt-4 tablet:p-4">
-                    <div className="grid tablet:grid-cols-[100px_1fr] grid-cols-[90px_1fr] tablet:gap-5 gap-2">
-                        <span className="block font-semibold text-zinc-500">At University</span>
+                    <div className="grid tablet:grid-cols-[110px_1fr] grid-cols-[100px_1fr] tablet:gap-5 gap-2">
+                        <span className="block font-semibold text-zinc-500">Fomal Courses</span>
                         <Para className="font-light ">
                             <Color primary>Datastructure and Algorithms</Color>, Database System, 
                             <Color primary>Computer Networking</Color>,
@@ -44,8 +44,7 @@ const Bio = () => {
                             <Color primary>ReactJs fullcourse - Evondev</Color>, 
                             F8 - elearning platform, 
                             <Color primary>Mastering Datastructure and Algorithms - Abdul bari - Udemy</Color>,
-                            python - Socratica (youtube),
-                            Django - Traversy Media (youtube).
+                            Django - Traversy Media.
                         </Para>
                     </div>
                 </div> 
@@ -83,7 +82,6 @@ const Bio = () => {
                             https://www.instagram.com/14maroon/
                             </URL>
                         </Button>
-                    
                     </div>
                 </div>
 
