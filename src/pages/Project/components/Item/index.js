@@ -2,16 +2,16 @@ import Button from "../../../../components/Button"
 import Color from "../../../../components/Color"
 import  Para from "../../../../components/Para"
 
-const Item = ({title, subTitle, inProgress , src, ...props}) => {
+const Item = ({title, subTitle, inProgress , src, slug, ...props}) => {
 
     return (
         <Button data-aos="fade-up"
             className="pl-5 pr-5 relative"
-            to="/projects/shoestore"
+            to={`/projects/${slug}`}
         >
-            <div className={`overflow-hidden w-full rounded-xl mb-2 `}
+            <div className={`overflow-hidden rounded-xl mb-2 min-w-full p-[25%] relative`}
             >
-                <img className="w-full object-cover" 
+                <img className="absolute h-full w-full object-cover left-0 top-0" 
                     alt="shoestore" 
                     src={src}
                  />

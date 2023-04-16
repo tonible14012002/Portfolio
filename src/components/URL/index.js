@@ -2,9 +2,9 @@
 
 const URL = ({children}) => {
     return (
-        <span className="text-rose-400 dark:text-blue-500"> 
+        <a href={children} className="text-rose-400 dark:text-blue-500 tablet:text-sm text-xs"> 
             {children}
-        </span>
+        </a>
     )
 }
 

@@ -12,8 +12,8 @@ const Project = () => {
     return (
         <div className="Project pt-4">
             <div data-aos="fade-up" className="">
-                <h3 className="m-auto w-fit text-xl text-zinc-400 dark:text-zinc-600">Welcome to</h3>
-                <h2 className="m-auto w-fit text-center text-3xl">
+                <h3 className=" m-auto w-fit text-xl text-zinc-400 dark:text-zinc-600">Welcome to</h3>
+                <h2 className="font-normal m-auto w-fit text-center tablet:text-3xl text-2xl">
                     a list of self-study Projects i <Color primary>built.</Color>
                 </h2>
             </div>
@@ -34,6 +34,13 @@ const Project = () => {
                     src= "/shoestore/cover.png"
                     subTitle="Based on Ananas - a Vietnamese localbrand using reactjs and django at the backend."
                     inProgress
+                    slug="shoestore"
+                />
+                <Item
+                    title="Home Security"
+                    src="/home_security/home-security-banner.png"
+                    subTitle="Security system using face recognition for people management"
+                    slug="home-security"
                 />
             </div>
         </div>

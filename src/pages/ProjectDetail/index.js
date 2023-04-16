@@ -1,17 +1,15 @@
 import { useParams } from "react-router-dom" 
-import ShoeStore from "./ShoeStore"
-import { useRef } from "react"
+import { projectRoutes } from "../../routes"
 
 const ProjectDetail = () => {
     const {slug} = useParams()
-    const slugMap = useRef({
-        "shoestore": ShoeStore
-    })
-    
-    const ProjectPage = slugMap.current[slug]
+    const { component: DetailPage } = projectRoutes.find(
+        route => route.slug === slug
+    )
+
     return (
         <div className="mt-4">
-            <ProjectPage />
+            <DetailPage />
         </div>
     )   
 }

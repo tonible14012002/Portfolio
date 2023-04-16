@@ -10,7 +10,7 @@ Aos.init()
 function App() {
   return (
     <BrowserRouter>
-        <DefaultLayout>  
+        <DefaultLayout>
           <ScrollToTop>
             <Routes>
                 {routes.map((route, index) => {
@@ -28,5 +28,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;

@@ -11,9 +11,9 @@ const Header = () => {
     const [showMenu, setShowMenu] = useState(false)
     useEffect(() => {
         if (lightmode)
-            document.documentElement.classList.add("dark")
-        else
             document.documentElement.classList.remove("dark")
+        else
+            document.documentElement.classList.add("dark")
     }, [lightmode])
 
     useEffect(() => {
@@ -35,7 +35,8 @@ const Header = () => {
     return (
         <header className="relative w-full h-[80px] leading-[80px] z-50 ">
             <div className="inline-block">
-                <Button className="flex items-center text-lg"
+                <Button className="flex items-center text-lg font-medium"
+                o
                     to="/"
                 >
                     <span className="block font-semibold bg-zinc-800 dark:bg-purple-500 dark:text-amber-50 text-xl w-[30px] h-[30px] text-center leading-[30px] rounded-full mr-2">
